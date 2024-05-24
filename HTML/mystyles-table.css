@@ -1,0 +1,51 @@
+h3 {
+    font-family: Helvetica;
+    font-size: large;
+    color: whitesmoke;
+}
+/*background color is black */
+body {
+    background-color: black;
+}
+
+.table, th, td {
+    border: 1px solid;
+    padding: auto;
+    border-color: whitesmoke;
+    color: whitesmoke;
+  }
+tr {
+    max-width: max-content;
+}
+
+
+
+li {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+
+
+
+/*Scrollbar is custom and colored in black and grey */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #999; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
